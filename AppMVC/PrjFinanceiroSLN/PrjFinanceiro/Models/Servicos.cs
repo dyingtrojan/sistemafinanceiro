@@ -1,8 +1,8 @@
 ﻿namespace PrjFinanceiro.Models
 {
-    public interface IEmprestimoService
+    public class EmprestimoService
     {
-        public decimal CalcularJurosSimples (decimal valor, double taxa)
+        public decimal CalcularJurosSimples (decimal valor, decimal taxa)
         {
             return valor + (valor * taxa);
         }
